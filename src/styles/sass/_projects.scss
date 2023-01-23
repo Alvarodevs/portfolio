@@ -1,8 +1,9 @@
 .project {
    display: grid;
    grid-auto-rows: 12rem;
-   grid-template-columns: repeat(auto-fill, minmax(16rem, 0.7fr));
+   grid-template-columns: repeat(auto-fit, minmax(16rem, 0.7fr));
    gap: 20px;
+   justify-content: center;
    &__container {
       display: flex;
       flex-wrap: wrap;
