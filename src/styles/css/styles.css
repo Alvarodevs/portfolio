@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 1.5rem;
+  max-width: 200px;
+  padding: 25px 30px;
+  position: absolute;
+  top: -60px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9176470588);
+  z-index: 1;
+  transition: top 0.8s;
+}
+nav:hover {
+  top: 10px;
+}
+nav a {
+  color: rgba(115, 241, 11, 0.9529411765);
+}
+nav a:hover {
+  color: #1a1a1d;
+  cursor: pointer;
+}
+
+.picture {
+  text-align: center;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+.picture .me {
+  width: 50%;
+  max-width: 100px;
+  transition: 1s;
+  filter: grayscale(100%);
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+}
+.picture .me:hover {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 20px 10px -5px #e4e8df;
+  box-shadow: 0px 10px 13px -7px #000000, 0px 20px 10px -5px #e4e8df;
+}
+.picture p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: rgba(115, 241, 11, 0.9529411765);
+  letter-spacing: 0.8rem;
+}
+.picture .name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.cv-button {
+  width: auto;
+  height: auto;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: rgba(115, 241, 11, 0.9529411765);
+  transition: 0.2s;
+  color: #1a1a1d;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 700;
+}
+.cv-button:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .me {
+    display: none;
+  }
+}
+.aboutMe {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.9176470588);
+}
+.aboutMe__container {
+  font-size: 1.5rem;
+  max-width: 900px;
+  margin: auto;
+}
+.aboutMe__social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.aboutMe__social-icons svg {
+  width: 30px;
+  background-color: rgba(115, 241, 11, 0.9529411765);
+  padding: 10px;
+  border-radius: 8px;
+}
+.aboutMe__line {
+  border-top: 2px solid rgba(115, 241, 11, 0.9529411765);
+  width: 150px;
+}
+.aboutMe a,
+.aboutMe :visited {
+  color: rgba(115, 241, 11, 0.9529411765);
+}
+.aboutMe a:hover {
+  opacity: 0.3;
+}
+
+.stack {
+  font-size: 1.4rem;
+  color: rgba(114, 214, 32, 0.9647058824);
+}
+.stack__container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.stack__frontend, .stack__backend, .stack__devops {
+  border: 1px solid rgba(115, 241, 11, 0.9529411765);
+  padding: 15px 30px;
+  width: 25%;
+  min-width: 250px;
+  max-width: 300px;
+}
+.stack__frontend p, .stack__backend p, .stack__devops p {
+  font-weight: 700;
+  padding-bottom: 10px;
+  border-bottom: 2px dashed rgba(115, 241, 11, 0.9529411765);
+  padding-bottom: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.stack__frontend span, .stack__backend span, .stack__devops span {
+  display: block;
+}
+.stack ul {
+  list-style-type: none;
+}
+.stack__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 150px;
+  max-width: 250px;
+}
+.stack__row-2 {
+  min-width: unset;
+  max-width: unset;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.stack svg {
+  font-size: 3rem;
+}
+.stack__other-tecnologies {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.stack__other-tecnologies svg {
+  width: 60px;
+  height: 60px;
+}
+.stack__other-tecnologies img {
+  width: 60px;
+  height: 60px;
+}
+.stack .sass-logo {
+  color: #bf4080;
+  width: 70px;
+  height: 70px;
+}
+.stack .wp-logo {
+  color: #fff;
+}
+.stack .redux-logo {
+  color: #764abc;
+}
+.stack .flask-logo {
+  color: #fff;
+}
+
+@media screen and (min-width: 1400px) {
+  .stack__container {
+    padding: 0px 70px;
+  }
+}
+.project {
+  display: grid;
+  grid-auto-rows: 12rem;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 0.7fr));
+  gap: 20px;
+}
+.project__container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  border-radius: 10px;
+}
+.project__container img {
+  width: 100%;
+  border-radius: 10px;
+}
+.project__container .flip-card {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.project__container .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.project__container .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.project__container .flip-card-front,
+.project__container .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.project__container .flip-card-front {
+  opacity: 0.9;
+}
+.project__container .flip-card-back {
+  background: transparent;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.project__btn {
+  padding: 20px 20px;
+  width: 120px;
+  font-size: 1rem;
+  font-weight: 500;
+  background: #1a1a1d;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-family: "Monserrat", sans-serif;
+}
+.project__btn-1 {
+  background-color: rgba(115, 241, 11, 0.9529411765);
+}
+.project__btn:hover {
+  outline: 1px solid rgba(255, 255, 255, 0.9176470588);
+}
+.project__btn-2 {
+  background-color: rgba(114, 214, 32, 0.9647058824);
+}
+.project__btn-2:hover {
+  background-color: #f1f508;
+}
+.project__btn:hover {
+  cursor: pointer;
+  background-color: #1a1a1d;
+  opacity: 0.4;
+}
+
+.form {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.form__name, .form__mail, .form__message {
+  background-color: rgba(41, 75, 14, 0.9647058824);
+  color: #1a1a1d;
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+.form__name:hover, .form__mail:hover, .form__message:hover {
+  outline: 2px solid rgba(255, 255, 255, 0.9176470588);
+}
+.form__name label, .form__mail label, .form__message label {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  letter-spacing: 0.1rem;
+}
+.form input,
+.form textarea {
+  max-width: 100%;
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 5px;
+}
+.form input {
+  height: 38px;
+}
+.form input:-webkit-autofill,
+.form input:-webkit-autofill:hover,
+.form input:-webkit-autofill:focus,
+.form input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+.form input:-webkit-autofill {
+  -webkit-text-fill-color: grey;
+}
+.form input[type=submit] {
+  width: auto;
+  height: auto;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: rgba(115, 241, 11, 0.9529411765);
+  transition: 0.2s;
+  color: #1a1a1d;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+.form input[type=submit]:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+.form textarea {
+  height: 7vw;
+  line-height: 1.5rem;
+}
+
+.footer {
+  color: #1a1a1d;
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  background-color: rgba(114, 214, 32, 0.9647058824);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  gap: 20px;
+}
+.footer .copyright-icon {
+  font-size: 1rem;
+}
+.footer__contact {
+  font-size: 1.5rem;
+}
+.footer__contact svg {
+  width: 20px;
+  background-color: #1a1a1d;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 8px;
+  color: rgba(115, 241, 11, 0.9529411765);
+  transition: 0.5s;
+}
+.footer__contact svg:hover {
+  background-color: rgba(255, 255, 255, 0.9176470588);
+}
+.footer__contact a {
+  color: #1a1a1d;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #1a1a1d;
+  background-image: url("../../assets/img/endless-constellation.svg");
+  color: rgba(114, 214, 32, 0.9647058824);
+  min-width: 320px;
+}
+body .tiperwriter {
+  width: 0;
+  overflow: hidden;
+  border-right: 0.15em solid rgba(115, 241, 11, 0.9529411765);
+  animation: typing 2s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+body main {
+  padding: 0 50px;
+  text-align: center;
+}
+body section {
+  margin-bottom: 50px;
+}
+body .hr-text {
+  font-size: 20px;
+  position: relative;
+  border: 0;
+  height: 1.5em;
+  font-size: 2rem;
+  margin: 50px 0px;
+}
+body .hr-text:before {
+  content: "";
+  background: linear-gradient(to right, transparent, rgba(115, 241, 11, 0.9529411765), transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+body .hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: #000;
+  padding: 0 0.5em;
+  line-height: 1.5em;
+  color: rgba(114, 214, 32, 0.9647058824);
+  overflow: visible;
+}
+body #hr_stack,
+body #hr_projects,
+body #hr_contact {
+  display: none;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@media screen and (max-width: 375px) {
+  #hr_stack:after {
+    content: "Stack";
+  }
+  #hr_projects:after {
+    content: "Projects";
+  }
+  #hr_contact:after {
+    content: "Contact";
+  }
+}/*# sourceMappingURL=styles.css.map */

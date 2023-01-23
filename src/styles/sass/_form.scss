@@ -1,0 +1,72 @@
+.form {
+   max-width: 700px;
+   margin: auto;
+   font-size: 1.2rem;
+   line-height: 1.5rem;
+   font-weight: 700;
+   margin-bottom: 50px;
+   &__name,
+   &__mail,
+   &__message {
+      background-color: $darkest-green;
+      color: $black;
+      text-align: left;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      &:hover {
+         outline: 2px solid $grey;
+      }
+      label {
+         color: #fff;
+         border-bottom: 1px solid #fff;
+         letter-spacing: 0.1rem;
+      }
+   }
+   input,
+   textarea {
+      max-width: 100%;
+      width: 100%;
+      border: none;
+      background: transparent;
+      outline: none;
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      font-weight: 600;
+      color: #fff;
+      margin-top: 5px;
+   }
+
+   input {
+      height: 38px;
+   }
+   input:-webkit-autofill,
+   input:-webkit-autofill:hover,
+   input:-webkit-autofill:focus,
+   input:-webkit-autofill:active {
+      transition: background-color 5000s ease-in-out 0s;
+   }
+   input:-webkit-autofill {
+      -webkit-text-fill-color: grey;
+   }
+   input[type="submit"] {
+      width: auto;
+      height: auto;
+      padding: 10px 30px;
+      border-radius: 10px;
+      background-color: $light-green;
+      transition: 0.2s;
+      color: $black;
+      font-size: 2rem;
+      line-height: 2rem;
+      font-weight: 700;
+      &:hover {
+         cursor: pointer;
+         opacity: 0.3;
+      }
+   }
+   textarea {
+      height: 7vw;
+      line-height: 1.5rem;
+   }
+}

@@ -1,0 +1,55 @@
+@use "variables";
+
+.picture {
+   text-align: center;
+   display: flex;
+   gap: 50px;
+   justify-content: center;
+   align-items: center;
+   padding-top: 5rem;
+   .me {
+      width: 50%;
+      max-width: 100px;
+      transition: 1s;
+      filter: grayscale(100%);
+      -moz-transition: 1s;
+      -webkit-transition: 1s;
+      -o-transition: 1s;
+   }
+   .me:hover {
+      -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 20px 10px -5px #e4e8df;
+      box-shadow: 0px 10px 13px -7px #000000, 0px 20px 10px -5px #e4e8df;
+   }
+   p {
+      font-size: 1.5rem;
+      font-weight: 300;
+      color: $light-green;
+      letter-spacing: 0.8rem;
+   }
+   .name {
+      font-size: 2rem;
+      font-weight: 700;
+   }
+}
+.cv-button {
+   width: auto;
+   height: auto;
+   padding: 10px 30px;
+   border-radius: 10px;
+   background-color: $light-green;
+   transition: 0.2s;
+   color: $black;
+   font-size: 1rem;
+   line-height: 1rem;
+   font-weight: 700;
+   &:hover {
+      cursor: pointer;
+      background-color: #fff;
+   }
+}
+
+@media screen and (max-width: 800px) {
+   .me {
+      display: none;
+   }
+}

@@ -1,0 +1,30 @@
+.nav-container {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+nav {
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+   font-size: 1.5rem;
+   max-width: 200px;
+   padding: 25px 30px;
+   position: absolute;
+   top: -60px;
+   border-radius: 10px;
+   background-color: $grey;
+   z-index: 1;
+   transition: top 0.8s;
+   &:hover {
+      top: 10px;
+   }
+   a {
+      color: $light-green;
+   }
+   a:hover {
+      color: $black;
+      cursor: pointer;
+   }
+}
