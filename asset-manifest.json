@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ca8c339f.css",
-    "main.js": "/portfolio/static/js/main.a32cdf6b.js",
+    "main.js": "/portfolio/static/js/main.60b8f19e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/movies_react.png": "/portfolio/static/media/movies_react.2a0a345f4793e284c359.png",
     "static/media/pickture.png": "/portfolio/static/media/pickture.9603e603ec26ce5cf97b.png",
@@ -9,17 +9,17 @@
     "static/media/avatar.png": "/portfolio/static/media/avatar.c374ad4b6324d2911809.png",
     "static/media/dashboard.png": "/portfolio/static/media/dashboard.86aeea30b0f7e01809ea.png",
     "static/media/Miranda.png": "/portfolio/static/media/Miranda.4ff590a74f213f95b382.png",
-    "static/media/isEazy.png": "/portfolio/static/media/isEazy.aebad7648ba2f4f774dd.png",
+    "static/media/isEazy.png": "/portfolio/static/media/isEazy.d6695baedfb2e562d97b.png",
     "index.html": "/portfolio/index.html",
     "static/media/react-router-mark-color.svg": "/portfolio/static/media/react-router-mark-color.9881d23645a292cf3f63bbcfc9207a5a.svg",
     "static/media/endless-constellation.svg": "/portfolio/static/media/endless-constellation.8d7dde43a0cf7dc4e336.svg",
     "static/media/maps-icon.svg": "/portfolio/static/media/maps-icon.2134a845b39e5d27935f718ff89dde18.svg",
     "main.ca8c339f.css.map": "/portfolio/static/css/main.ca8c339f.css.map",
-    "main.a32cdf6b.js.map": "/portfolio/static/js/main.a32cdf6b.js.map",
+    "main.60b8f19e.js.map": "/portfolio/static/js/main.60b8f19e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca8c339f.css",
-    "static/js/main.a32cdf6b.js"
+    "static/js/main.60b8f19e.js"
   ]
 }
