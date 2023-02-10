@@ -8,7 +8,7 @@ const Info = () => {
                <p className="aboutMe__p aboutMe__p-1">
                   Full stack developer focused in front-end, with experience in
                   HTML5, CSS3, JavaScript, React Js. Nowadays, entering into
-                  Angluar & Vue for completing my front end knowledge. In case
+                  Angular & Vue for completing my front end knowledge. In case
                   of backend, I´ve developed in Python with Flask framework, but
                   actually, developing in NodeJS, with Express, and PHP /
                   Laravel in use.
