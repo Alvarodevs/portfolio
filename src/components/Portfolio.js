@@ -10,6 +10,7 @@ import pickture from "../assets/img/pickture.png";
 import Miranda from "../assets/img/Miranda.png";
 import dashboard from "../assets/img/dashboard.png";
 import movies_react from "../assets/img/movies_react.png";
+import isEazy from "../assets/img/isEazy.png";
 import Form from "./Form";
 import Footer from "./Footer";
 import {
@@ -58,6 +59,11 @@ const Portfolio = () => {
          dashboard,
          "https://alvarodevs.github.io/hotel-miranda-react/",
          "https://github.com/Alvarodevs/hotel-miranda-react",
+      ],
+      [
+         isEazy,
+         "https://alvarodevs.github.io/isEazy_test/",
+         "https://github.com/Alvarodevs/isEazy_test"
       ],
       [movies_react, "", "https://github.com/Alvarodevs/movies_4GigTalent"],
    ];
