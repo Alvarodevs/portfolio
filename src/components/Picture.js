@@ -14,7 +14,7 @@ const Picture = () => {
             </div>
          </div>
          <a
-            href="https://drive.google.com/file/d/1-Xq8qBv05cJFCUETeuFHwdr8I78REKS8/view?usp=sharing"
+            href="https://drive.google.com/file/d/1-vBG20_aj-J8Y2WAuSDZvZ1iJw88jnER/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
          >
